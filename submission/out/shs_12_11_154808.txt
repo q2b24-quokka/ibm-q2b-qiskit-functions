@@ -1,0 +1,55 @@
+---------------------- CORPUS ----------------------
+
+raw text | vectors | word/sememes
+
+1. Short fasts are usually safe for people in good health.
+   {0, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 42, 48, 185, 186, 187, 188, 77, 78, 79, 80, 81, 82, 209, 210, 211, 212, 87, 213, 214, 215, 91, 216, 217, 218, 219, 220, 97, 221, 222, 223, 224, 114, 116, 118, 119, 120, 121, 122}
+   ('fast', 'n')           food
+   ('people', 'n')         child, citizen, country, group, human, men, plural, woman
+   ('safe', 'a')           base, danger, free, harm, reach, risk
+   ('good', 'a')           appeal, condition, esteem, excellence, force, health, influence, knowledge, mind, moral, physical, promote, respect, skill, wellbeing
+   ('short', 'a')          commodity, duration, expectation, flake, limit, memory, price, range, security, sense, short, sound, spatial, speech, syllable, tall, temporal
+   ('health', 'n')         body, condition, disease, free, healthy, mind
+
+2. Agricultural fertilizers are the main source of nutrient pollution in downstate Illinois.
+   {1, 129, 10, 11, 138, 140, 142, 145, 159, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 71, 72, 73, 74, 75, 76, 205, 206, 207, 208, 103, 104, 105, 106, 107, 114, 116, 117}
+   ('fertilizer', 'n')     fertile, manure, mixture, nitrate, soil, substance
+   ('pollution', 'n')      activity, consequence, contaminate, environment, human, natural, substance, undesirable
+   ('illinois', 'n')       Algonquian, Illinois, language, midwestern, people, west
+   ('nutrient', 'n')       chemical, compound, element, energy, green, organic, plant, substance, synthesis, tissue
+   ('main', 'a')           clause, complete, force, intensity, sentence
+   ('agricultural', 'a')    agriculture, promote
+   ('source', 'n')         agent, document, energy, infectious, inspiration, organization, passage, person, plant, process, publication, substance, supply, technology, work
+
+3. Human wastes are an extensively used resource in many parts of the world.
+   {1, 2, 3, 4, 5, 6, 7, 10, 11, 141, 142, 143, 144, 145, 146, 147, 148, 149, 40, 41, 42, 43, 44, 45, 46, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 87, 98, 99, 100, 101, 102, 108, 109, 110, 111, 112, 113, 114, 115}
+   ('used', 'v')           inherent, natural, purpose, tense
+   ('part', 'n')           action, activity, actor, artifact, asset, comb, divide, group, hair, human, individual, instrument, melody, music, natural, object, person, play, relation, scalp, voice
+   ('resource', 'n')       deal, problem, reserve, supply, wealth
+   ('waste', 'n')          activity, consume, estate, law, reduction, resource, waste
+   ('many', 'a')           count, indefinite, noun, number, quantifier
+   ('world', 'n')          concern, earth, experience, group, heaven, human, life, living, people, planet, sun
+   ('human', 'n')          articulate, erect, extinct, intelligence, living, speech, superior
+
+4. Obedience is the proof of love Love proves itself through actions.
+   {128, 129, 130, 131, 132, 133, 134, 135, 136, 1, 137, 138, 139, 140, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 150, 151, 152, 153, 52, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 94, 95, 96, 97, 114, 121, 123, 124, 125, 126, 127}
+   ('action', 'n')         active, activity, area, body, energetic, field, government, human, intent, judicial, mechanism, nature, organization, plot, power, prevention, proceeding, process, produce, protection, series, trait, transmit, work
+   ('proof', 'n')          alcohol, alcoholic, evidence, formal, integer, negative, percentage, photographic, print, series, strength, test, trial, truth, volume
+   ('love', 'n')           activity, affection, attraction, desire, emotion, feeling, intercourse, people, person, positive, score, sexual, squash, tennis, term
+   ('obedience', 'n')      behavior, parent, person, respect, trait
+   ('prof', 'n')           college, faculty, member, university
+
+5. Courtship varies between different birds and happens during migration for birds that migrate.
+   {0, 10, 11, 15, 17, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 47, 48, 49, 50, 51, 52, 53, 54, 55, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93}
+   ('courtship', 'n')      affection, hope, man, marriage, woman
+   ('bird', 'n')           ball, bird, contempt, cork, crown, displeasure, domestic, equipment, feather, flesh, food, forelimb, fowl, informal, rubber, term, vertebrate, warmblooded, wild, wing
+   ('migration', 'n')      animal, atom, bird, chemistry, country, fish, group, migrate, molecule, movement, people, person, radical, time
+   ('different', 'a')      form, mark, nature, ordinary, quality
+
+
+
+------------- SEMANTIC HILBERT SPACE -------------
+Words:         29
+Sememes:       225
+Qubits:        8
+Sememe List:   food, activity, estate, waste, reduction, resource, law, consume, attraction, positive, people, person, sexual, intercourse, desire, affection, squash, term, score, emotion, tennis, feeling, warmblooded, vertebrate, rubber, wing, forelimb, flesh, wild, cork, crown, displeasure, equipment, feather, contempt, informal, ball, fowl, domestic, bird, articulate, erect, speech, superior, extinct, intelligence, living, hope, woman, marriage, man, form, nature, quality, ordinary, mark, volume, negative, strength, evidence, formal, truth, alcohol, alcoholic, photographic, percentage, series, print, integer, trial, test, manure, fertile, mixture, soil, nitrate, substance, reach, base, risk, harm, danger, free, atom, migrate, fish, animal, group, time, chemistry, molecule, country, radical, movement, parent, behavior, trait, respect, noun, indefinite, count, quantifier, number, west, language, midwestern, Illinois, Algonquian, heaven, sun, planet, earth, experience, concern, human, life, promote, agriculture, mind, disease, condition, body, healthy, transmit, plot, protection, prevention, area, produce, process, proceeding, energetic, power, mechanism, field, judicial, intent, active, organization, government, work, tense, natural, purpose, inherent, supply, wealth, reserve, problem, deal, university, faculty, college, member, knowledge, moral, appeal, esteem, excellence, force, health, skill, influence, physical, wellbeing, plant, energy, element, chemical, organic, synthesis, tissue, compound, green, sentence, intensity, clause, complete, publication, document, technology, inspiration, agent, passage, infectious, child, plural, citizen, men, relation, artifact, melody, asset, scalp, individual, music, comb, instrument, play, divide, voice, actor, object, hair, action, consequence, environment, undesirable, contaminate, temporal, flake, commodity, syllable, spatial, range, sense, price, short, tall, duration, security, limit, memory, expectation, sound

@@ -1,0 +1,48 @@
+---------------------- CORPUS ----------------------
+
+raw text | vectors | word/sememes
+
+1. Sound doctrine is divisive, dividing truth from error, good from evil.
+   {128, 129, 5, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 207, 208, 209, 210, 211, 212, 87, 88, 89, 90, 91, 92, 93, 122, 123, 124, 125, 126, 127}
+   ('truth', 'n')          advocate, conformity, feminist, free, quality, reality, slavery, true, woman
+   ('doctrine', 'n')       authoritative, belief, group, school
+   ('good', 'a')           appeal, condition, esteem, excellence, force, health, influence, knowledge, mind, moral, physical, promote, respect, skill, wellbeing
+   ('sound', 'n')          audible, auditory, bay, body, channel, deep, elastic, event, hear, individual, inlet, language, mechanical, medium, occurrence, ocean, sea, sensation, signal, speech, transmit, vibration, water
+   ('evil', 'n')           Shakespeare, behavior, morally, practice, principle, quality, wrong
+   ('error', 'n')          action, baseball, defensive, judgment, player, science, wrong
+
+2. Root beers are located in cans.
+   {130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 17, 151, 152, 153, 154, 175, 176, 177, 178, 179, 180, 55, 58, 66, 94, 95, 96, 97, 98, 103, 121, 125}
+   ('root', 'n')           affix, botany, bud, derive, equal, equation, form, infer, jaw, language, leave, linguistic, linguistics, mineral, multiply, node, number, organ, plant, process, salt, serf, set, simple, statement, time, tooth, true, underground, water, word
+   ('beer', 'n')           alcoholic, beverage, cereal, ferment, flavor, hop, mixture
+   ('located', 'v')        assign, discover, location, residence, survey
+
+3. Medium colors are ones that bring average price of for extra large.
+   {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 149, 155, 156, 157, 158, 159, 160, 161, 162, 163, 171, 52, 185, 187, 188, 189, 190, 191, 192, 193, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 194, 195, 196, 197, 198, 199}
+   ('large', 'a')          advanced, average, extent, magnitude, number, pregnancy, quantity, size, stage, tolerant, understanding
+   ('color', 'n')          attribute, brightness, characteristic, emit, form, hue, interaction, light, lightness, misleading, musical, object, perception, person, physic, race, reflect, skin, sound, source, strong, term, transmit, visual, white
+   ('price', 'n')          cost, criminal, material, monetary, money, operatic, property, reward, sell, soprano
+   ('extra', 'a')          add, regular
+   ('medium', 'n')         biology, communicate, communication, cultivate, intermediate, liquid, middle, mix, nutrient, painter, pigment, signal, solid, specimen, store, substance
+   ('average', 'a')        approximate, average, distribution, evaluation, expect, norm, number, scale, set, statistical
+
+4. Rape survivors can be any age.
+   {134, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 99, 100, 101, 102, 103, 104, 105, 124}
+   ('age', 'n')            era, history, life, long, power, qualification, time
+   ('rape', 'n')           Eurasian, country, crime, crop, cultivate, forage, intercourse, plant, seed, sexual, warfare, woman
+   ('survivor', 'n')       live
+
+5. Air conditioners are located in buildings.
+   {11, 17, 42, 48, 181, 182, 183, 184, 185, 186, 62, 200, 201, 202, 203, 204, 205, 206, 91, 94, 95, 96, 97, 98, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121}
+   ('building', 'n')       activity, building, commercial, construct, roof, structure, wall
+   ('located', 'v')        assign, discover, location, residence, survey
+   ('conditioner', 'n')    athlete, body, clothing, condition, exercise, hair, soft, substance
+   ('air', 'n')            Earth, air, aircraft, breathing, element, form, gas, mass, medium, mixture, note, oxygen, person, quality, radio, sequence, television, travel, universe, wind
+
+
+
+------------- SEMANTIC HILBERT SPACE -------------
+Words:         21
+Sememes:       213
+Qubits:        8
+Sememe List:   light, reflect, visual, musical, interaction, transmit, source, lightness, perception, term, strong, person, hue, brightness, white, sound, race, form, object, attribute, physic, emit, skin, misleading, characteristic, school, authoritative, belief, group, excellence, knowledge, skill, promote, esteem, appeal, physical, health, mind, wellbeing, force, moral, influence, condition, respect, channel, speech, inlet, sensation, medium, auditory, vibration, mechanical, signal, occurrence, audible, water, bay, hear, language, sea, deep, individual, body, elastic, ocean, event, number, size, understanding, advanced, pregnancy, extent, average, tolerant, magnitude, stage, quantity, property, money, criminal, reward, cost, monetary, sell, operatic, material, soprano, principle, behavior, Shakespeare, wrong, quality, morally, practice, discover, residence, survey, location, assign, history, life, qualification, long, time, era, power, gas, wind, note, television, universe, element, sequence, radio, oxygen, mass, aircraft, Earth, breathing, air, travel, mixture, free, slavery, woman, true, advocate, feminist, conformity, reality, derive, linguistics, affix, leave, plant, word, mineral, multiply, process, infer, equation, node, jaw, salt, organ, statement, simple, serf, tooth, set, underground, bud, linguistic, equal, botany, add, regular, approximate, expect, scale, distribution, statistical, evaluation, norm, crime, sexual, intercourse, warfare, country, forage, crop, cultivate, Eurasian, seed, live, ferment, cereal, hop, flavor, alcoholic, beverage, hair, exercise, athlete, clothing, substance, soft, communicate, store, communication, nutrient, biology, mix, solid, painter, pigment, specimen, middle, liquid, intermediate, activity, wall, commercial, construct, structure, roof, building, player, science, baseball, action, defensive, judgment
