@@ -55,4 +55,5 @@ docs/_build/
 __aqora__/
 
 # quokka
-scratch.*
+*/.DS_Store
+out/
