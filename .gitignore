@@ -55,4 +55,5 @@ docs/_build/
 __aqora__/
 
 # quokka
-scratch.py
+*/.DS_Store
+.DS_Store
