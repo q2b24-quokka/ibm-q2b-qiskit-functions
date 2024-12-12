@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+'''
+Functions to load, process, and combine semnets from SKB-DA
+SKB-DA provides source code for the paper "A Data Augmentation Method for Building Sememe Knowledge Base via Reconstructing Dictionary Definitions" by Li and Takano, published in The Association for Natural Language Processing 2022
+https://github.com/SauronLee/SKB-DA
+'''
 import re
 import numpy as np
 import nltk

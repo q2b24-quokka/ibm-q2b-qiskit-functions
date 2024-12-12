@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import re
 from collections import defaultdict
 from nltk.stem import WordNetLemmatizer

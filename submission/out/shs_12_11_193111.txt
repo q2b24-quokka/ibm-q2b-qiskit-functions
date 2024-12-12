@@ -1,0 +1,95 @@
+---------------------- CORPUS ----------------------
+
+raw text | vectors | word/sememes
+
+1. Drug addicts are located in parks.
+   {136, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 151, 279, 280, 161, 166, 180, 181, 182, 183, 56, 198, 116, 117, 118, 119, 120, 126, 127}
+   ('drug', 'n')           medicine, narcotic, substance
+   ('located', 'v')        assign, discover, location, residence, survey
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('addict', 'n')         addiction, dependent, substance, symptom, withdrawal
+
+2. Some communities make discarded holiday trees into mulch for use in community parks.
+   {9, 13, 35, 46, 56, 63, 64, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 121, 122, 123, 124, 125, 136, 143, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 161, 162, 166, 198, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 243, 258, 259, 260, 261, 262, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 335}
+   ('use', 'n')            acquire, behavior, benefit, economic, economics, good, influence, inherit, law, legal, manufacturing, pattern, property, psychology, reaction, repetition
+   ('tree', 'n')           English, Shakespeare, actor, branch, crown, form, gymnosperm, perennial, plant, production, root, theatrical, trunk, woody
+   ('community', 'n')      agreement, common, goal, group, interact, local, nation, organism, ownership, people, private, residence
+   ('discarded', 'v')      cast
+   ('make', 'v')           abstract, acquire, activity, artistic, assemble, bowel, business, change, charge, combine, commercial, constituent, derive, eating, form, function, goal, heat, individual, induce, institute, light, manner, manufacture, material, mind, movement, pretend, product, reach, real, salary, sex, shape, time, transaction, urine, wage
+   ('mulch', 'n')          erosion, matter, reduce, rot, soil, spread, vegetable
+   ('holiday', 'n')        custom, law, pleasure, rest, time, work
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+3. Many savannas simply look like open parks with scattered trees.
+   {263, 264, 265, 266, 267, 268, 269, 270, 143, 144, 145, 146, 147, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 33, 161, 166, 39, 136, 341, 56, 342, 343, 64, 344, 198, 211, 212, 213, 214, 215, 216, 217, 218, 89, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238}
+   ('look', 'n')           eye, face, feeling, perceive, person
+   ('tree', 'n')           English, Shakespeare, actor, branch, crown, form, gymnosperm, perennial, plant, production, root, theatrical, trunk, woody
+   ('open', 'a')           access, conclusion, cover, direct, enclosure, eye, free, hide, interval, mouth, open, secret, set, subject, theory, thought, union, view
+   ('savanna', 'n')        grassland, region, subtropical
+   ('scattered', 'v')      area, direction, distribute, scatter
+   ('many', 'a')           count, indefinite, noun, number, quantifier
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+4. Many state parks have programs that encourage bike touring.
+   {128, 129, 2, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 13, 14, 15, 16, 17, 18, 19, 20, 140, 150, 142, 143, 272, 273, 274, 156, 276, 286, 278, 32, 161, 162, 34, 280, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 56, 267, 166, 39, 141, 198, 76, 79, 270, 271, 341, 342, 343, 344, 275, 277, 279}
+   ('state', 'n')          administrative, agitation, chemistry, constituent, container, department, depression, district, federal, foreign, gas, government, group, liquid, matter, nation, occupy, organize, people, policy, politically, shape, solid, sovereign, territory, volume
+   ('bike', 'n')           foot, frame, motor, pedal, vehicle, wheel, wheeled
+   ('program', 'n')        academic, event, execute, instruction, interpret, party, performance, political, presentation, project, public, radio, science, sequence, service, study, television, theatrical
+   ('many', 'a')           count, indefinite, noun, number, quantifier
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+5. Spring is the time when baby animals are born in the park.
+   {1, 280, 281, 136, 267, 270, 271, 272, 273, 274, 275, 276, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 175, 176, 177, 178, 179, 56, 166, 69, 198, 71, 72, 73, 74, 167, 168, 79, 169, 85, 170, 161, 171, 172, 173, 174, 149, 277, 278, 279}
+   ('baby', 'n')           attractive, birth, child, concern, fetus, immature, mammal, person, project, slang, term, woman, young
+   ('time', 'n')           activity, attribute, clock, control, coordinate, dimension, division, duration, equal, event, experience, fourth, future, indefinite, period, person, physical, point, prisoner, rhythm, spatial, sufficient, time
+   ('born', 'n')           Germany, nuclear, physicist, quantum
+   ('spring', 'n')         device, elastic, elasticity, flow, ground, growth, length, light, metal, natural, point, position, press, pull, push, season, shape, water
+   ('animal', 'n')         living, organism, voluntary
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+6. Lightning also cause damage to trees in parks and gardens.
+   {10, 29, 34, 56, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 89, 94, 108, 121, 136, 143, 161, 166, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 242, 243, 244, 245, 246, 247, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 284, 326, 336, 337, 338, 339, 340}
+   ('tree', 'n')           English, Shakespeare, actor, branch, crown, form, gymnosperm, perennial, plant, production, root, theatrical, trunk, woody
+   ('garden', 'n')         cultivate, flower, fruit, garden, ground, herb, house, lawn, plant, plot, vegetable, yard
+   ('cause', 'n')          action, court, entity, event, force, individual, justification, law, legal, origin, proceeding, remedy, term
+   ('damage', 'n')         change, damage, injury, legal, military, occurrence, violation
+   ('lightning', 'v')      add, ball, black, breed, bridge, city, cricket, develop, discharge, dog, drive, electricity, entertainment, mail, road, ship, star, steel, university
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+7. Underground parking has the connotation of being something secret or radical.
+   {256, 257, 2, 139, 20, 282, 283, 284, 29, 285, 286, 287, 56, 57, 58, 64, 91, 92, 94, 225, 239, 240, 241, 111, 112, 113, 114, 115, 248, 249, 250, 251, 252, 253, 254, 255}
+   ('parking', 'n')        leave, park, space, vehicle
+   ('connotation', 'n')    community, meaning, representation, term
+   ('radical', 'a')        change, leaf, norm, plant, radical, rootstock, stem
+   ('secret', 'n')         air, character, design, manufacture, music, produce, product, secret, series, service, share, song, south, universe
+   ('underground', 'n')    electric, force, government, occupation, organize, overthrow, railway, secret
+
+8. Seniors are located in parks.
+   {136, 139, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 151, 279, 280, 288, 289, 290, 291, 292, 293, 166, 161, 48, 180, 181, 182, 183, 56, 198}
+   ('located', 'v')        assign, discover, location, residence, survey
+   ('senior', 'a')         college, fourth, high, pronounce, rank, school, service, syllable
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+9. Parking structures are used for parks.
+   {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 270, 271, 272, 273, 274, 275, 20, 276, 277, 278, 279, 280, 161, 166, 136, 56, 57, 58, 267, 198, 345, 346, 347}
+   ('parking', 'n')        leave, park, space, vehicle
+   ('used', 'v')           inherent, natural, purpose, tense
+   ('structure', 'n')      anatomical, characteristic, complex, composition, construct, element, entity, knowledge, living, organize, pattern, people, relationship, society
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+10. National parks are the foundation of any serious plan to protect nature.
+   {0, 4, 133, 136, 267, 270, 271, 272, 273, 274, 275, 276, 277, 22, 278, 279, 280, 156, 286, 158, 159, 33, 160, 161, 162, 163, 166, 164, 165, 47, 49, 51, 56, 313, 64, 323, 324, 69, 325, 326, 327, 328, 329, 203, 204, 205, 206, 79, 207, 208, 209, 210, 331, 332, 333, 334, 82, 198, 250, 330}
+   ('foundation', 'n')     basis, body, education, field, fundamental, ground, instruction, knowledge, shape, start, support, undergarment, woman
+   ('national', 'a')       country, government, limit, nation, national, public
+   ('nature', 'n')         action, agent, attribute, causal, characteristic, control, emotional, intellectual, landscape, natural, person, physical, plant, quality, reaction, recognize, type, universe
+   ('plan', 'n')           drawing, scale, structure
+   ('serious', 'a')        anxiety, appeal, fear, matter, mind, play
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+
+
+
+------------- SEMANTIC HILBERT SPACE -------------
+Words:         41
+Sememes:       348
+Qubits:        9
+Sememe List:   characteristic, living, organize, element, knowledge, society, composition, complex, construct, pattern, entity, relationship, anatomical, people, foot, wheel, motor, frame, wheeled, pedal, vehicle, mammal, woman, attractive, immature, young, fetus, birth, slang, term, child, concern, project, person, event, time, period, clock, prisoner, indefinite, spatial, rhythm, duration, experience, equal, dimension, activity, control, fourth, attribute, point, physical, division, sufficient, coordinate, future, park, space, leave, cultivate, garden, herb, yard, vegetable, plant, house, fruit, lawn, flower, ground, plot, physicist, nuclear, Germany, quantum, artistic, constituent, charge, reach, shape, derive, transaction, mind, eating, real, light, material, induce, function, form, bowel, product, manufacture, wage, change, acquire, combine, heat, salary, sex, business, urine, assemble, goal, abstract, institute, commercial, manner, individual, movement, pretend, stem, rootstock, radical, leaf, norm, dependent, substance, withdrawal, symptom, addiction, law, work, rest, pleasure, custom, medicine, narcotic, party, science, study, radio, execute, instruction, political, interpret, public, presentation, television, service, sequence, academic, performance, theatrical, face, eye, feeling, perceive, common, organism, group, residence, interact, agreement, local, private, nation, ownership, drawing, structure, scale, play, matter, appeal, fear, anxiety, natural, length, device, position, elasticity, flow, water, push, metal, season, elastic, press, pull, growth, location, survey, discover, assign, star, discharge, steel, breed, drive, electricity, entertainment, city, develop, ship, dog, black, add, cricket, ball, mail, road, university, bridge, undergarment, field, basis, education, fundamental, start, support, body, English, actor, root, production, crown, Shakespeare, woody, gymnosperm, branch, trunk, perennial, theory, mouth, enclosure, secret, open, free, cover, view, set, interval, access, subject, conclusion, hide, union, direct, thought, representation, community, meaning, damage, legal, injury, occurrence, military, violation, produce, south, universe, music, character, song, design, air, series, share, rot, spread, erosion, soil, reduce, subtropical, region, grassland, distribute, area, scatter, direction, urban, baseball, Scottish, land, game, brake, explorer, property, Africa, car, gear, voluntary, electric, railway, force, occupation, government, overthrow, pronounce, college, high, rank, school, syllable, agitation, occupy, solid, chemistry, politically, district, territory, sovereign, container, federal, administrative, liquid, volume, depression, foreign, gas, department, policy, good, reaction, repetition, benefit, economic, inherit, behavior, psychology, manufacturing, economics, influence, limit, country, national, action, landscape, agent, causal, quality, emotional, recognize, type, intellectual, cast, proceeding, justification, court, remedy, origin, number, noun, count, quantifier, inherent, tense, purpose

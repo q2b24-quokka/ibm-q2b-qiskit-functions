@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import math
 from qiskit import *
 from qiskit.compiler import transpile
