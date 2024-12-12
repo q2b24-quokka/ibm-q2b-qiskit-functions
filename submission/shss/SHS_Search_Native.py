@@ -5,11 +5,6 @@ from qiskit import *
 from qiskit.compiler import transpile
 from qiskit.circuit.library import MCMT, ZGate
 from qiskit_aer import AerSimulator
-# from qiskit.providers import JobStatus
-# from qiskit.tools import job_monitor
-# from qiskit_ionq import IonQProvider
-# from qiskit_ibm_runtime import QiskitRuntimeService, Sampler, Session
-# from qiskit.providers.ibmq import least_busy
 import numpy as np
 from shss.utils import *
 
@@ -102,16 +97,6 @@ class SemanticHilbertSpaceSearchNative:
 
                     exp_results.append(sim_result)
                 return exp_results
-            # case 'ionq_simulator' | 'ionq_qpu':
-            #     provider = IonQProvider()
-            #     backend = provider.get_backend(backend)
-            #     self.ionq_circuits = self._transpile_circuits(backend)
-            #     for idx, qc in enumerate(self.ionq_circuits):
-            #         job = backend.run(qc, shots=shots)
-            #         print(f'DOCUMENT {idx+1}: running job {job.job_id()}')
-            #         result = job.result()
-            #         exp_results.append(result)
-            #     return exp_results
             # case 'ibmq_qasm_simulator' | 'ibmq_belem' : # or least_busy
             #     provider = IBMQ.load_account()
             #     service = QiskitRuntimeService(channel='ibm_quantum')

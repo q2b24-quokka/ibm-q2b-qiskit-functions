@@ -1,0 +1,91 @@
+---------------------- CORPUS ----------------------
+
+raw text | vectors | word/sememes
+
+1. Relaxation is located in parks.
+   {131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 41, 42, 43, 44, 45, 46, 47, 48, 177, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 106, 237, 238, 239, 240, 119}
+   ('located', 'v')        assign, discover, location, residence, survey
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('relaxation', 'n')     absence, activity, control, disturbance, equation, equilibrium, feeling, fiber, freedom, method, muscle, physic, physiology, responsibility, return, strain, strength, tension, work, worry
+
+2. Most national parks have visitors.
+   {131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 29, 30, 31, 32, 39, 40, 82, 83, 230, 231, 232, 105, 106, 107, 108, 233, 234, 235, 236, 119}
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('most', 'a')           count, mass, noun, number, quantifier, superlative
+   ('national', 'a')       country, government, limit, nation, national, public
+   ('visitor', 'n')        academic, history, institution, lake, law, mountain, title
+
+3. Many state parks have one or more small lakes on their property.
+   {28, 29, 30, 31, 32, 33, 36, 38, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 106, 108, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167}
+   ('property', 'n')       article, attribute, basic, class, construct, individual, member, movie, object, play, possession
+   ('many', 'a')           count, indefinite, noun, number, quantifier
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('lake', 'n')           bright, fresh, land, organic, pigment, purplish, red, translucent, water
+   ('state', 'n')          administrative, agitation, chemistry, constituent, container, department, depression, district, federal, foreign, gas, government, group, liquid, matter, nation, occupy, organize, people, policy, politically, shape, solid, sovereign, territory, volume
+   ('small', 'a')          average, child, constituent, extent, immature, inferior, limit, magnitude, number, particle, quantity, scope, size, small, sufficient, worth, young
+
+4. Play areas are located in parks.
+   {131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 23, 57, 167, 42, 177, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 68, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 89, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 106, 237, 238, 239, 240, 119}
+   ('located', 'v')        assign, discover, location, residence, survey
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('area', 'n')           artery, boundary, characteristic, culture, function, geographical, life, nerve, people, region, special, structure, study, subject, surface, walk
+   ('play', 'n')           action, activity, actor, amusement, child, coordinate, drama, dramatic, fixed, game, guide, imagination, light, movement, payment, performance, play, price, recreational, removal, rule, skill, space, sport, stage, stake, sword, team, theatrical, time, weak, weapon, win, work
+
+5. Social problems add to risk for parks.
+   {128, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 265, 266, 267, 268, 32, 33, 34, 35, 36, 37, 38, 261, 262, 263, 264, 66, 68, 80, 106, 241, 242, 243, 244, 245, 119, 124}
+   ('problem', 'n')        solution
+   ('add', 'v')            addition, bestow, join, number, quantity, scope, size
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('risk', 'n')           agent, expose, exposure, infectious, probability
+   ('social', 'a')         colony, community, form, group, high, human, live, member, organize, people, purpose, society
+
+6. A car park is a lot
+   {131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 19, 280, 281, 282, 283, 284, 285, 286, 32, 166, 66, 68, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 97, 106, 119}
+   ('car', 'n')            cable, cargo, combustion, conveyance, engine, freight, internal, motor, passenger, plant, power, railroad, railway, vehicle, wheel, wheeled
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('lot', 'n')            Abraham, God, Old, Testament, association, boundary, destruction, extent, family, group, land, number, people
+
+7. Many recreational parks offer golf, hiking, and a variety of individual and team sports.
+   {129, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 269, 141, 142, 143, 145, 144, 275, 154, 28, 29, 30, 31, 32, 287, 87, 88, 89, 90, 95, 229, 104, 106, 109, 110, 111, 112, 113, 114, 115, 116, 119, 251, 252, 253, 254, 255}
+   ('sport', 'n')          Maine, active, biology, characteristic, competition, occupation, organism, physical, sport, subject
+   ('individual', 'a')     characteristic, person
+   ('many', 'a')           count, indefinite, noun, number, quantifier
+   ('golf', 'n')           game, play, stroke
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('team', 'n')           animal, draft, sport, unit
+   ('hiking', 'v')         exercise, physical, pleasure
+   ('variety', 'n')        biology, category, common, series, short, specie, taxonomic, variety
+   ('offer', 'n')          proposal
+
+8. Some bees live in parks.
+   {131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 20, 21, 22, 23, 24, 25, 26, 27, 7, 226, 227, 228, 229, 106, 116, 119}
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('live', 'a')           charge, elastic, electricity, energy, explosive, force, life, possess
+   ('bee', 'n')            competition, gathering, insect, social, solitary, specie
+
+9. Power steering is slow to react to quick inputs while parking.
+   {0, 1, 130, 131, 256, 257, 258, 259, 260, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 19, 145, 154, 155, 156, 32, 288, 289, 290, 291, 292, 38, 293, 173, 49, 308, 184, 189, 203, 213, 123}
+   ('steering', 'v')       direct, oneself
+   ('slow', 'v')           velocity
+   ('power', 'n')          authority, businessman, control, event, exercise, influence, mathematical, measure, multiply, notation, number, possession, power, quality, quantity, rate, time
+   ('react', 'n')          game, music, series, viral
+   ('input', 'n')          action, belief, electronic, event, opinion, output, signal, statement
+   ('parking', 'n')        leave, park, space, vehicle
+   ('quick', 'n')          body, flesh, pain, sensitive, skin
+
+10. Cities see parks as free land which has no value.
+   {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 23, 38, 42, 68, 69, 76, 80, 81, 82, 83, 86, 103, 106, 107, 114, 119, 122, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 210, 246, 247, 248, 249, 250, 266, 271, 275, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307}
+   ('see', 'v')            business, certainty, conceive, entertainment, eye, good, idea, inquiry, meaning, mentally, mind, perceive, power, professional, sense, sight, social, understand
+   ('park', 'n')           Africa, Scottish, area, ball, baseball, brake, car, explorer, game, gear, land, natural, park, play, property, public, urban
+   ('free', 'a')           activity, bind, chemically, hold, molecule, motion
+   ('land', 'n')           agriculture, country, domain, dominant, earth, estate, exercise, film, government, inventor, land, lens, life, live, material, nation, occupation, organize, owner, people, photographic, politically, process, property, quality, real, reference, solid, surface
+   ('value', 'n')          assign, color, compute, duration, fair, good, individual, lightness, measure, money, musical, negative, note, numerical, quantity, relative, service
+   ('city', 'n')           administrative, area, charter, district, urban
+
+
+
+------------- SEMANTIC HILBERT SPACE -------------
+Words:         40
+Sememes:       309
+Qubits:        9
+Sememe List:   oneself, direct, mentally, professional, sense, business, understand, social, inquiry, perceive, entertainment, mind, conceive, eye, good, sight, meaning, idea, certainty, power, explosive, elastic, force, life, charge, energy, possess, electricity, indefinite, noun, count, quantifier, number, size, bestow, join, scope, addition, quantity, mass, superlative, fiber, activity, strain, muscle, equilibrium, responsibility, worry, return, control, tension, strength, physic, feeling, absence, method, disturbance, work, equation, freedom, physiology, container, gas, agitation, occupy, federal, group, department, people, solid, constituent, sovereign, liquid, depression, foreign, matter, politically, policy, shape, volume, organize, administrative, government, nation, territory, chemistry, district, unit, draft, sport, animal, function, walk, study, culture, subject, region, boundary, nerve, artery, special, geographical, structure, surface, characteristic, national, public, country, limit, proposal, physical, Maine, organism, biology, occupation, active, competition, article, construct, play, object, movie, individual, possession, member, attribute, class, basic, solution, person, velocity, park, Africa, natural, area, ball, explorer, gear, car, brake, land, Scottish, baseball, urban, property, game, bright, purplish, pigment, fresh, translucent, organic, red, water, series, music, viral, average, sufficient, magnitude, particle, worth, immature, inferior, small, young, extent, child, fair, note, compute, negative, duration, measure, numerical, service, lightness, assign, color, money, musical, relative, coordinate, drama, time, weapon, skill, imagination, removal, space, stake, price, rule, team, light, performance, stage, fixed, weak, theatrical, actor, dramatic, amusement, action, win, sword, movement, payment, recreational, guide, charter, railway, passenger, vehicle, internal, cargo, combustion, freight, wheel, plant, conveyance, engine, cable, wheeled, motor, railroad, insect, gathering, solitary, specie, lake, mountain, institution, history, law, title, academic, residence, location, survey, discover, probability, infectious, agent, exposure, expose, chemically, bind, motion, molecule, hold, short, taxonomic, common, category, variety, skin, sensitive, flesh, body, pain, society, human, high, purpose, colony, live, community, form, stroke, authority, quality, mathematical, notation, rate, exercise, multiply, event, businessman, influence, God, association, Abraham, family, Testament, Old, destruction, pleasure, electronic, statement, belief, output, opinion, signal, inventor, estate, agriculture, reference, film, domain, photographic, real, earth, dominant, lens, owner, process, material, leave

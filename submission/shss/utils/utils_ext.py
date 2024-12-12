@@ -246,4 +246,4 @@ def plot_exp_counts(dec_counts, top_num):
     # dec_counts = get_decimal_counts(exp_results)
     for idx, c in enumerate(dec_counts):
         title = f'Document {idx+1}'
-        plot_histogram(data=c, title=title, sort='value_desc', number_to_keep=top_num)
+        display(plot_histogram(data=c, title=title, sort='value_desc', number_to_keep=top_num))
